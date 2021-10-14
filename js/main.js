@@ -52,5 +52,7 @@ const createPlayer = ({classElem, name, hp, img}) => {
     document.querySelector('.arenas').append(elPlayer);
 }
 
+
+// active func
 createPlayer(player1);
 createPlayer(player2);
