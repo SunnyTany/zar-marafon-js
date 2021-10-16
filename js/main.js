@@ -53,6 +53,7 @@ const Player = function(name, img, numPlayer) {
         return this.name + ' Fight...';
     };
 }
+// create 2 new players
 const player1 = new Player(hero1.name, hero1.img, 1);
 console.log(player1);
 const player2 = new Player( hero2.name, hero2.img, 2);
