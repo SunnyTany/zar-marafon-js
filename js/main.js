@@ -111,3 +111,6 @@ randomButton.addEventListener('click', () => {
     changeHP(player1);
     changeHP(player2);
 });
+// active func
+createPlayer(player1);
+createPlayer(player2);
